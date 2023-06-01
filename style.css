@@ -1,0 +1,26 @@
+body{
+background-color: rgb(236, 133, 133);
+}
+h1{
+background-color: blanchedalmond;
+color:rgb(123, 10, 10);
+}
+#show_sketch{
+float: right;
+}
+canvas{
+    border: 5px solid blanchedalmond;
+    border-radius: 20px;
+    animation-name: example;
+    animation-duration: 4s;
+    margin-top:50px ;
+    animation-iteration-count: infinite;
+}
+@keyframes example{
+    from{box-shadow:1px 1px 3px rgb(236, 133, 133);}
+    to{box-shadow:1px 1px 3px rgb(238, 193, 103);}
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
